@@ -1,0 +1,27 @@
+{
+  "name": "gruntexperiments",
+  "version": "0.0.1",
+  "description": "Grunt experiments",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-requirejs": "~0.4.4",
+    "grunt-hash-required": "~0.1.5",
+    "grunt-typescript": "~0.7.0"
+  },
+  "devDependencies": {
+    "grunt-typescript": "~0.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Edminsson/gruntexperiments"
+  },
+  "author": "Edminsson",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Edminsson/gruntexperiments/issues"
+  }
+}
