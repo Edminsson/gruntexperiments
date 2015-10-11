@@ -1,0 +1,1 @@
+define("one",["exports"],function(e){function t(){console.log("primero")}e.primero=t}),define("two",[],function(){function e(){}return{segundo:e}}),define("three",["exports"],function(e){function t(){}e.tercero=t}),require(["one","two","three"],function(e,t,n){e.primero()}),define("main",function(){});

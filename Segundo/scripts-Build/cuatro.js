@@ -1,0 +1,1 @@
+define([],function(){function e(){}exports.cuarto=e});

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index5</title>
+        <script src="bower_components/requirejs/require.js"></script>
+		<script>
+			require.config({
+				baseUrl: 'my_modules',
+				bundles: {
+					'primary': ['main','one','two','three'],
+					'secondary': ['cuatro']
+				}
+			});
+			require(['main']);
+		</script>
+    </head>
+    <body>
+        <h1>Index5</h1>
+    </body>
+</html>
